@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-row">
+				<button type="button" class="mui-btn mui-btn-primary" onclick="menuu()">返回</button>
+			</div>
+			<div class="mui-row">
+				<h3 style="text-align: center;color: green;">会长：你想吃鱼吗</h1>
+			</div>
+			<div class="mui-row">
+				<img src="../images/chiyu.png" style="width: 100%;" onclick="shouChiYu()"/>
+			</div>
+			<div class="mui-row">
+				<h3 style="text-align: center;color: green;">副会长：橘绿绿</h1>
+			</div>
+			<div class="mui-row">
+				<img src="../images/heidan.jpg" style="width: 100%;" onclick="shoujuzi()"/>
+			</div>
+			<div class="mui-row">
+				<h3 style="text-align: center;color: green;">副会长：白露崽</h1>
+			</div>
+			<div class="mui-row">
+				<img src="../images/heidan.jpg" style="width: 100%;" onclick="shoubailu()"/>
+			</div>
+			<div class="mui-row">
+				<h3 style="text-align: center;color: green;">后面将陆续添加其他人。。。</h1>
+			</div>
+		</div>
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init({})
+			function menuu(){
+				// window.location.href = '../index1.html';
+				window.history.go(-1)
+			}
+			
+			function shouChiYu(){
+				window.location.href = '../newTest/chiyu.html';
+			}
+			
+			function shoujuzi(){
+				window.location.href = '../newTest/juzi.html';
+			}
+			
+			function shoubailu(){
+				window.location.href = '../newTest/bailu.html';
+			}
+		</script>
+	</body>
+
+</html>
